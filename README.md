@@ -1,19 +1,39 @@
-# Desafio Amigo Secreto
+🎁 Desafío: Amigo Secreto
+📝 Descripción
 
-**Amigo secreto**
+En este desafío, se desarrolla una pequeña aplicación que permite a los usuarios ingresar nombres de amigos y luego realizar un sorteo aleatorio para determinar quién será el "amigo secreto".
 
-En este desafío, se desarrolla una aplicación que permite a los usuarios ingresar nombres de amigos en una lista para luego realizar un sorteo aleatorio y determinar quién es el "amigo secreto".
+El usuario podrá:
 
-El usuario deberá agregar nombres mediante un campo de texto y un botón "Adicionar". Los nombres ingresados se mostrarán en una lista visible en la página, y al finalizar, un botón "Sortear Amigo" seleccionará uno de los nombres de forma aleatoria, mostrando el resultado en pantalla.
+Agregar nombres mediante un campo de texto y un botón "Adicionar".
 
+Visualizar la lista completa de amigos ingresados.
 
-**Funcionalidades:**
+Realizar el sorteo con el botón "Sortear Amigo", que seleccionará aleatoriamente a un participante y mostrará el resultado en pantalla.
 
-*Agregar nombres:* Los usuarios escribirán el nombre de un amigo en un campo de texto y lo agregarán a una lista visible al hacer clic en "Adicionar".
+⚙️ Funcionalidades
+➕ Agregar nombres
 
-*Validar entrada:* Si el campo de texto está vacío, el programa mostrará una alerta pidiendo un nombre válido.
+El usuario puede escribir el nombre de un amigo en un campo de entrada.
 
-*Visualizar la lista:* Los nombres ingresados aparecerán en una lista debajo del campo de entrada.
+Al hacer clic en el botón "Adicionar", el nombre se agrega a una lista visible en la página.
 
-*Sorteo aleatorio:* Al hacer clic en el botón "Sortear Amigo", se seleccionará aleatoriamente un nombre de la lista y se mostrará en la
-página
+⚠️ Validar entrada
+
+Si el campo de texto está vacío al presionar "Adicionar", se mostrará una alerta indicando que debe ingresar un nombre válido.
+
+📋 Visualizar la lista
+
+Todos los nombres agregados se muestran en tiempo real debajo del campo de entrada, formando la lista de participantes.
+
+🎲 Sorteo aleatorio
+
+Al hacer clic en el botón "Sortear Amigo", se selecciona un nombre al azar de la lista.
+
+El nombre seleccionado se muestra de forma destacada en la pantalla como el "Amigo Secreto".
+
+💻 Tecnologías utilizadas
+Lenguaje / Tecnología	Icono	Descripción breve
+HTML	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" width="30"/>	Estructura del contenido y elementos de la interfaz.
+CSS	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" width="30"/>	Estilos visuales para la interfaz del usuario.
+JavaScript	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS" width="30"/>	Lógica del programa: agregar nombres, validaciones y sorteo aleatorio.
