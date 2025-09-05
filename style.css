@@ -160,3 +160,48 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+/* Estilos para la alerta personalizada */
+#alerta {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.alerta-contenido {
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.alerta-contenido p {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.alerta-contenido button {
+  padding: 8px 16px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.alerta-contenido button:hover {
+  background-color: #0056b3;
+}
+
+.alerta-oculta {
+  display: none;
+}
