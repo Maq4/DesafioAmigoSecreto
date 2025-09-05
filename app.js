@@ -1,11 +1,12 @@
 //Arreglos
-//let amigos = [];
+// Arreglos
+let amigos = ();
+let amigosSeleccionados = []; // Si deseas guardar los seleccionados
 
-//Funciones 
-
+// Función para seleccionar un amigo aleatorio
 function seleccionarAmigoAleatorio(amigos) {
   if (amigos.length === 0) {
-    alert("La lista de amigos está vacía.");
+    alert("⚠️ La lista de amigos está vacía.");
     return null;
   }
 
@@ -13,16 +14,15 @@ function seleccionarAmigoAleatorio(amigos) {
   return amigos[indiceAleatorio];
 }
 
-// Ejemplo de uso:
-const amigos = []; // Cambia esto para probar
-const amigoSeleccionado = seleccionarAmigoAleatorio(amigos);
+// Uso de la función
+let amigo = seleccionarAmigoAleatorio(amigos);
 
-if (amigoSeleccionado !== null) {
-  console.log("Amigo seleccionado:", amigoSeleccionado);
+if (amigo !== null) {
+  alert("🎉 Amigo seleccionado: " + amigo);
+  console.log("Amigo seleccionado:", amigo);
+  // amigosSeleccionados.push(amigo); // Si deseas guardarlo
 }
 
-const amigoSeleccionado = seleccionarAmigoAleatorio(amigos);
-console.log("Amigo seleccionado:", amigoSeleccionado);
 
 
 //function validarAmigos(params) {}
