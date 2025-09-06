@@ -162,7 +162,7 @@ ul {
 }
 
 /* Estilos para la alerta personalizada */
-#alerta {
+/*#alerta {
   position: fixed;
   top: 0;
   left: 0;
@@ -173,36 +173,37 @@ ul {
   justify-content: center;
   align-items: center;
   z-index: 1000;
-}
+}*/
 
-.alerta-contenido {
+/*.alerta-contenido {
   background-color: white;
   padding: 20px 30px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   text-align: center;
   font-family: sans-serif;
-}
+}*/
 
-.alerta-contenido p {
+/*.alerta-contenido p {
   margin-bottom: 20px;
   font-size: 18px;
-}
+}*/
 
-.alerta-contenido button {
+/*.alerta-contenido button {
   padding: 8px 16px;
   background-color: #007BFF;
   color: white;
   border: none;
   border-radius: 60px;
   cursor: pointer;
-}
+}*/
 
-.alerta-contenido button:hover {
+/*.alerta-contenido button:hover {
   background-color: #0056b3;
 }
 
 .alerta-oculta {
   display: none;
-}
+}*/
+
 
