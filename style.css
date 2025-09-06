@@ -118,7 +118,7 @@ button {
 .button-add {
     background-color: var(--color-tertiary);
     color: var(--color-text);
-    border-radius: 0 25px 25px 0;
+    border-radius: 0 25px 35px 0;
 }
 
 .button-add:hover {
@@ -194,7 +194,7 @@ ul {
   background-color: #007BFF;
   color: white;
   border: none;
-  border-radius: 6px;
+  border-radius: 60px;
   cursor: pointer;
 }
 
@@ -205,3 +205,4 @@ ul {
 .alerta-oculta {
   display: none;
 }
+
