@@ -1,4 +1,4 @@
-//Arreglos
+
 // Arreglos
 let amigos = ();
 let amigosSeleccionados = []; // Si deseas guardar los seleccionados
@@ -33,4 +33,5 @@ if (amigo !== null) {
 //function agregarAmigos (){}
 //function limpiarListaexistente(){}
 //function ValidarEntrada (){}
+
 //function MostrarListadoAmigos (){}
