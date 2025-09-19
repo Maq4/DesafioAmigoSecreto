@@ -24,7 +24,7 @@ function seleccionarAmigoAleatorio(amigos) {
 }
 
 // Uso de la función
-let amigo = seleccionarAmigoAleatorio(amigos);
+//let amigo = seleccionarAmigoAleatorio(amigos);
 
 if (amigo !== null) {
   alert("🎉 Amigo seleccionado: " + amigo);
