@@ -2,12 +2,22 @@
 // Arreglos
 let amigos = [];
 let amigosSeleccionados = ''; // Si deseas guardar los seleccionados
+let lista = document.getElementById("listaAmigos")
 
 function agregarAmigo (){
   let seleccionado = document.getElementById("amigo").value
   amigos.push(seleccionado)
   document.getElementById("amigo").value = ''
-  console.log(amigos)
+  lista.innerHTML = ""
+  recorrerLista()
+}
+
+function recorrerLista (){
+  amigos.map((amigo)=>{
+    const li = document.createElement('li');
+		li.textContent = amigo;
+		lista.appendChild(li);
+  })
 }
 
 
