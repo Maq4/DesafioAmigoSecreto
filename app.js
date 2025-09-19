@@ -49,26 +49,10 @@ function validarEntrada (seleccionado){
   return true
 }
 
-// Uso de la función
-// let amigo = seleccionarAmigoAleatorio(amigos);
-
-// if (amigo !== null) {
-//   alert("🎉 Amigo seleccionado: " + amigo);
-//   console.log("Amigo seleccionado:", amigo);
-//   // amigosSeleccionados.push(amigo); // Si deseas guardarlo
-// }
-
-
-
-//function validarAmigos(params) {}
-//function ordenaraleatorio(){}   
-
-
-//function reiniciarJuego() {}
-
-
-
-//function limpiarListaexistente(){}
-//
-
-//function MostrarListadoAmigos (){}
+function reiniciarJuego() {
+  lista.innerHTML = ""
+  resultado.innerHTML = ""
+  document.getElementById("amigo").value = ''
+  amigos = [];
+  amigosSeleccionados = '';
+}
