@@ -4,7 +4,7 @@ let amigos = [];
 let amigosSeleccionados = ''; // Si deseas guardar los seleccionados
 
 function agregarAmigo (){
-  console.log(document.getElementById("amigo"))
+  console.log(document.getElementById("amigo").value)
   let seleccionado= document.getElementById("amigo").value
   amigosSeleccionados.push(seleccionado)
   console.log(seleccionado)
@@ -24,13 +24,13 @@ function seleccionarAmigoAleatorio(amigos) {
 }
 
 // Uso de la función
-//let amigo = seleccionarAmigoAleatorio(amigos);
+// let amigo = seleccionarAmigoAleatorio(amigos);
 
-if (amigo !== null) {
-  alert("🎉 Amigo seleccionado: " + amigo);
-  console.log("Amigo seleccionado:", amigo);
-  // amigosSeleccionados.push(amigo); // Si deseas guardarlo
-}
+// if (amigo !== null) {
+//   alert("🎉 Amigo seleccionado: " + amigo);
+//   console.log("Amigo seleccionado:", amigo);
+//   // amigosSeleccionados.push(amigo); // Si deseas guardarlo
+// }
 
 
 
