@@ -4,10 +4,10 @@ let amigos = [];
 let amigosSeleccionados = ''; // Si deseas guardar los seleccionados
 
 function agregarAmigo (){
-  console.log(document.getElementById("amigo").value)
-  let seleccionado= document.getElementById("amigo").value
-  amigosSeleccionados.push(seleccionado)
-  console.log(seleccionado)
+  let seleccionado = document.getElementById("amigo").value
+  amigos.push(seleccionado)
+  document.getElementById("amigo").value = ''
+  console.log(amigos)
 }
 
 
