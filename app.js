@@ -24,7 +24,7 @@ function recorrerLista (){
 
 
 // Función para seleccionar un amigo aleatorio
-function sortearAmigo(amigos) {
+function sortearAmigo() {
   if (amigos.length === 0) {
     alert("⚠️ La lista de amigos está vacía.");
     return null;
@@ -32,6 +32,7 @@ function sortearAmigo(amigos) {
 
   const indiceAleatorio = Math.floor(Math.random() * amigos.length);
   amigosSeleccionados = amigos[indiceAleatorio];
+  console.log(indiceAleatorio, amigosSeleccionados)
   resultado.innerHTML = ""
   const li = document.createElement('li');
 	li.textContent = amigosSeleccionados;
