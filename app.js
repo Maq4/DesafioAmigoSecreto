@@ -7,6 +7,10 @@ let resultado = document.getElementById("resultado")
 
 function agregarAmigo (){
   let seleccionado = document.getElementById("amigo").value
+  if (!validarEntrada(seleccionado)){
+    alert("⚠️ Por favor, inserte un nombre.");
+    return null;
+  }
   amigos.push(seleccionado)
   document.getElementById("amigo").value = ''
   lista.innerHTML = ""
@@ -32,11 +36,17 @@ function sortearAmigo() {
 
   const indiceAleatorio = Math.floor(Math.random() * amigos.length);
   amigosSeleccionados = amigos[indiceAleatorio];
-  console.log(indiceAleatorio, amigosSeleccionados)
   resultado.innerHTML = ""
   const li = document.createElement('li');
 	li.textContent = amigosSeleccionados;
   resultado.appendChild(li);
+}
+
+function validarEntrada (seleccionado){
+  if (seleccionado.trim() === ''){
+    return false
+  }
+  return true
 }
 
 // Uso de la función
@@ -59,6 +69,6 @@ function sortearAmigo() {
 
 
 //function limpiarListaexistente(){}
-//function ValidarEntrada (){}
+//
 
 //function MostrarListadoAmigos (){}
