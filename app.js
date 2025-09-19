@@ -1,7 +1,15 @@
 
 // Arreglos
-let amigos = ();
-let amigosSeleccionados = []; // Si deseas guardar los seleccionados
+let amigos = [];
+let amigosSeleccionados = ''; // Si deseas guardar los seleccionados
+
+function agregarAmigo (){
+  let seleccionado= document.getElementById("amigo").value
+  amigosSeleccionados.push(seleccionado)
+  console.log(seleccionado)
+}
+
+
 
 // Función para seleccionar un amigo aleatorio
 function seleccionarAmigoAleatorio(amigos) {
@@ -30,7 +38,9 @@ if (amigo !== null) {
 
 
 //function reiniciarJuego() {}
-//function agregarAmigos (){}
+
+
+
 //function limpiarListaexistente(){}
 //function ValidarEntrada (){}
 
