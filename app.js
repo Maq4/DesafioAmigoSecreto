@@ -4,6 +4,7 @@ let amigos = [];
 let amigosSeleccionados = ''; // Si deseas guardar los seleccionados
 
 function agregarAmigo (){
+  console.log(document.getElementById("amigo"))
   let seleccionado= document.getElementById("amigo").value
   amigosSeleccionados.push(seleccionado)
   console.log(seleccionado)
